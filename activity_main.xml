@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="EMI"
+        android:gravity="center"
+        android:textSize="30dp">
+
+    </TextView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        >
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="principal      "
+            android:layout_marginLeft="20dp"
+            android:textSize="30dp">
+        </TextView>
+
+        <EditText
+            android:id="@+id/edpr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:hint="rps">
+        </EditText>
+        
+        
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="interest rate"
+            android:layout_marginLeft="20dp"
+            android:textSize="30dp">
+        </TextView>
+
+        <EditText
+            android:id="@+id/edin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:hint="%">
+        </EditText>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time            "
+            android:layout_marginLeft="20dp"
+            android:textSize="30dp">
+        </TextView>
+
+        <EditText
+            android:id="@+id/edti"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:hint="months">
+        </EditText>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnCalculator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:text="calculator"
+        android:background="#6200ED"
+        android:textSize="30dp"
+        >
+
+    </Button>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:gravity="bottom"
+        android:background="#6200ED">
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/txttotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="EMI= "
+        android:textSize="30dp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/txtpermo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Per month= "
+        android:textSize="30dp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/txtintest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Intest= "
+        android:textSize="30dp">
+
+    </TextView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:gravity="bottom"
+        android:background="#6200ED">
+    </TextView>
+
+    <Button
+        android:id="@+id/btnRsset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="rsset"
+        android:layout_gravity="center"
+        android:background="#6200ED"
+        android:textSize="30dp"
+        >
+    </Button>
+
+
+
+
+</LinearLayout>
